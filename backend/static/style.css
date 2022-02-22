@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 0, 0, .8);
+}
+.cont {
+    text-align: center;
+
+}
+
+form {
+    display: inline-block;
+    
+}
+
+.error {
+    color: red;
+    animation: error 3s infinite;
+}
+
+h1, span {
+    color: white;
+}
+
+/*  نسوي فيها محترف شوي :) */
+@keyframes error {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: darkred;
+    }
+
+    100% {
+        color: red;
+    }
+}
